@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Compétences &amp; Certifications</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">Portfolio Barnabé Mathis</a>
+        <button type="button" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="main-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="competences.html" class="active">Compétences</a></li>
+            <li><a href="etudes.html">Études</a></li>
+            <li><a href="experiences.html">Expériences</a></li>
+            <li><a href="productions.html">Productions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a class="btn-cv" href="assets/CV_Barnabe_Mathis.pdf" download>Télécharger mon CV</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="page-title">Compétences &amp; Certifications</h1>
+      <p class="page-subtitle">Techniques et transversales.</p>
+      <p class="skills-hint">Cliquez sur une case pour l'agrandir et afficher plus de détails.</p>
+
+      <div class="skills-grid">
+        <article class="skill-item">
+          <h3>Systèmes &amp; réseaux</h3>
+          <div class="skill-icons" aria-label="Outils">
+            <img class="skill-icon" src="assets/skills/docker-logo.png" alt="Docker" loading="lazy" />
+          </div>
+          <p>Windows Server, Linux, virtualisation, routage, sécurité…</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Administration des comptes et services, mise en œuvre de
+                la virtualisation, configuration de VLAN ou routage de base, pare-feu et règles,
+                stratégies de sauvegarde, sensibilisation à la sécurité (mises à jour,
+                privilège), expériences vues en TP ou en stage.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="skill-item">
+          <h3>Développement</h3>
+          <div class="skill-icons" aria-label="Langages et outils">
+            <img class="skill-icon" src="assets/skills/cpp-logo.png" alt="C++" loading="lazy" />
+            <img class="skill-icon" src="assets/skills/python-logo.png" alt="Python" loading="lazy" />
+            <img class="skill-icon" src="assets/skills/mariadb-logo.png" alt="MariaDB" loading="lazy" />
+            <img class="skill-icon" src="assets/skills/bash-logo.png" alt="Bash" loading="lazy" />
+          </div>
+          <p>Langages de programmation, bases de données, méthodes (agile, Git…).</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Codage : C++ (récupération et envoi de données vers un autre appareil),
+                Python, Bash (automatisation de scripts, exemple : mise à jour Windows 10 vers Windows 11).
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="skill-item">
+          <h3>Anglais</h3>
+          <div class="skill-icons" aria-label="Outils">
+            <img class="skill-icon" src="assets/skills/duolingo-logo.png" alt="Duolingo" loading="lazy" />
+          </div>
+          <p>Niveau B2, compréhension technique, vocabulaire IT.</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Compréhension de documents techniques en anglais, apprentissage
+                personnel via Duolingo.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="skill-item">
+          <h3>Soft skills</h3>
+          <div class="skill-icons" aria-label="Outils">
+            <img class="skill-icon" src="assets/skills/github-logo.png" alt="GitHub" loading="lazy" />
+          </div>
+          <p>Travail en équipe, communication, autonomie, gestion du temps.</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Très bon travail d'équipe, renforcé grâce au projet BTS, avec un emploi du
+                temps respecté et de nombreuses réunions permettant d'identifier et résoudre
+                les problèmes rencontrés.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- SECTION CERTIFICATIONS -->
+      <section class="section-block" aria-labelledby="titre-certifications">
+        <h2 id="titre-certifications">Certifications</h2>
+
+        <div class="card" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <p class="meta">Certification numérique</p>
+            <h3 style="margin: 0 0 0.25rem; font-size: 1.05rem;">PIX</h3>
+            <p style="margin: 0; color: var(--muted); font-size: 0.92rem;">
+              Certification des compétences numériques — plateforme nationale PIX.
+            </p>
+          </div>
+          <a
+            href="assets/certifications/pix.pdf"
+            download
+            class="btn-cv"
+            style="white-space: nowrap; flex-shrink: 0;"
+          >
+            Télécharger
+          </a>
+        </div>
+
+        <div class="card" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+          <div>
+            <p class="meta">Cybersécurité</p>
+            <h3 style="margin: 0 0 0.25rem; font-size: 1.05rem;">ANSSI — SecNumacadémie</h3>
+            <p style="margin: 0; color: var(--muted); font-size: 0.92rem;">
+              Attestation de suivi du MOOC de sensibilisation à la cybersécurité — ANSSI.
+            </p>
+          </div>
+          <a
+            href="assets/certifications/anssi.pdf"
+            download
+            class="btn-cv"
+            style="white-space: nowrap; flex-shrink: 0;"
+          >
+            Télécharger
+          </a>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Barnabé Mathis — Tous droits réservés</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

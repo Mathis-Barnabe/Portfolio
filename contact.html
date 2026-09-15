@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">Portfolio Barnabé Mathis</a>
+        <button type="button" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="main-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="etudes.html">Études</a></li>
+            <li><a href="experiences.html">Expériences</a></li>
+            <li><a href="productions.html">Productions</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li>
+              <a class="btn-cv" href="assets/CV_Barnabe_Mathis.pdf" download>Télécharger mon CV</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="page-title">Contact</h1>
+      <p class="page-subtitle">Pour un stage, une alternance, une question sur le portfolio ou un échange professionnel.</p>
+
+      <div class="card">
+        <ul class="contact-list">
+          <li>
+            <strong>Mail professionnel :</strong>
+            <a href="mailto:mathisbarnabe.pro@gmail.com">mathisbarnabe.pro@gmail.com</a>
+          </li>
+          <li>
+            <strong>Mail étudiant :</strong>
+            <a href="mailto:mbarnabe@EDUHDF.fr">mbarnabe@EDUHDF.fr</a>
+          </li>
+          <li>
+            <strong>LinkedIn :</strong>
+            <a href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BXgHfY289TxCffsd84F4pGQ%3D%3D" target="_blank" rel="noopener">Votre profil LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="section-block">
+        <h2>Formulaire</h2>
+        <div class="card">
+          <form id="contact-form" style="display: grid; gap: 1rem; max-width: 480px">
+            <label>
+              <span style="display: block; margin-bottom: 0.35rem; color: var(--muted)">Nom</span>
+              <input
+                type="text"
+                id="contact-nom"
+                placeholder="Jean Dupont"
+                style="width: 100%; padding: 0.6rem 0.75rem; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);"
+              />
+            </label>
+            <label>
+              <span style="display: block; margin-bottom: 0.35rem; color: var(--muted)">Objet</span>
+              <input
+                type="text"
+                id="contact-objet"
+                placeholder="Demande d'alternance"
+                style="width: 100%; padding: 0.6rem 0.75rem; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);"
+              />
+            </label>
+            <label>
+              <span style="display: block; margin-bottom: 0.35rem; color: var(--muted)">Message</span>
+              <textarea
+                id="contact-message"
+                rows="5"
+                placeholder="Votre message..."
+                style="width: 100%; padding: 0.6rem 0.75rem; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); resize: vertical;"
+              ></textarea>
+            </label>
+            <button
+              type="button"
+              id="contact-submit"
+              class="btn-cv"
+              style="justify-self: start; border: none; cursor: pointer;"
+            >
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Barnabé Mathis — Tous droits réservés</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
